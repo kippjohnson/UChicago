@@ -9,7 +9,7 @@
 # backbone CA in your molecule
 #
 # Set output name below (in quotes)
-set outfile [open "2LMN-40-dE22.dat" w]
+set outfile [open "2LMN-40-dE22-2.dat" w]
 set sel [atomselect top all]
 set sel0 [$sel num]
 set sel [atomselect top "resid 1 to $sel0 and name CA"]
